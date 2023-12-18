@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #7b35d6;
+}
+.golovka {
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.golovka__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.golovka__logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: #8a4de0;
+}
+.nav {
+    font-size: 20px;
+    text-transform: uppercase;
+    }
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    transition: color .1s linear;
+    }
+.nav__link:after {
+    content: "";
+     display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #8a4de0;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+.nav__link:hover {
+    color: #8a4de0;
+}
+.nav__link:hover:after,
+.nav__link.active:after {
+    opacity: 1;
+}
+.nav__link.active {
+    color: #8a4de0;
+}
+
+main {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+box-shadow: 0 0 10px #000000;
+}
+
+p{
+ margin-bottom: 10px;
+color: #000000;
+}
+
+h1{
+margin-left: -1000px;
+color: #68ff6b;
+}
+
+h2{
+margin-bottom: 10px;
+color: #000000;
+}
+
+img {
+max-width: 100%;
+height: auto;
+margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+ 
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .contact-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  p {
+    color: #666;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 75px;
+  }
+
+  .social-icons a:hover {
+    color: #007bff;
+  }
+
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #8a4de0;
+  }
+
+  p {
+    color: #666;
+  }
+  
+
+.copyright {
+padding: 20px 0;
+border-top: 1px solid #898989;
+font-size: 14px;
+color: #090905;
+text-align: center;
+}    
+.copyright span {
+color: #8a4de0;
+}
